@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: aliceblue;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 12%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    backdrop-filter: blur(10px);
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo :hover{
+    color: yellow;
+    text-shadow: 0 0 25px yellow ;
+}
+
+
+.navbar {
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    background-color: rgb(4, 4, 5);
+    word-spacing: 20px;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}
+.contact{
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    transition: 0.3s ease;
+}
+
+.contact:hover{
+    background-color: yellow;
+    box-shadow: 0 0 25px yellow;
+    color: rgb(4, 4, 4);
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    padding: 110px 12%;
+}
+
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 40px;
+}
+.home-content h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+.home-content p{
+    width:  340px;
+    display: flex;
+    gap: 2em;
+}
+.btn-box{
+    width: 340px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 15px 25px;
+    background-color: black;
+    color: antiquewhite;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+.btn-1 :hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.img-box img{
+    padding: 10%;
+    border-radius: 50%;
+    margin-left: 40%;
+ }
+
